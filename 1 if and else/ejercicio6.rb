@@ -7,7 +7,7 @@ b = 'falso'
 if a == 'verdadero'
     puts ':)'
 else
-  if b == 'verdadero'
+  if b == 'falso'
     puts ':|'
   else
     puts ':('
