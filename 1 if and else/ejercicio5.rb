@@ -4,12 +4,12 @@
 a = true
 b = true
 
-if a == true
-  if b == true
+if a == true && b == true
     puts 'Lograste A y B!'
-  else
+elsif a == true && b == false 
     puts 'Lograste A! Pero no B!'
-  end
+elsif a == false && b == true
+puts 'A es falso y B es verdadero'    
 else
   puts 'No lograste A ni B!'
 end
