@@ -11,5 +11,3 @@ elsif b == 'falso'
   else 
     puts ':('
 end
-
-
