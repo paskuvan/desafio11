@@ -24,3 +24,21 @@ Generar el código para imprimir la siguiente tabla:
   <tbody>
  </table>
 =end
+i = 0
+b = ['<table>']
+b.push('<tbody>')
+
+3.times do
+  b.push(' <tr>')
+
+  4.times do
+    b.push("   <td> #{i += 1} </td>")
+  end
+
+  b.push(' </tr>')
+end
+
+b.push('<tbody>')
+b.push('</table>')
+
+puts b
